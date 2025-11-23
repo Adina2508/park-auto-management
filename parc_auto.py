@@ -51,8 +51,8 @@ def filtreaza_dupa_vechime(depozit, ani_minimi):
             rezultat.append(masina)
     return rezultat
 
-masini_vechi = filtreaza_dupa_vechime(parc_auto, 2)
+masini_vechi = filtreaza_dupa_vechime(parc_auto, 10)
 
-print("Aceasta este lista cu masinile mai vechi de 2 ani:\n")
+print("Aceasta este lista cu masinile mai vechi de 10 ani:\n")
 for m in masini_vechi:
     print(m.descriere())
